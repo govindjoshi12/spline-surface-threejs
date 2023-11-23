@@ -40,6 +40,7 @@ const material = new THREE.MeshNormalMaterial({ color: 0xff0000});
 const surfaceMesh = new THREE.Mesh(surface, material);
 scene.add(surfaceMesh);
 
+camera.position.y = 3;
 camera.position.z = 5;
 controls.update();
 
